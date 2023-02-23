@@ -3,8 +3,9 @@ slug: excalidraw
 type: bundle
 description: simple excalidraw bashed app.
 version: current
-env_file: .env
+env_file: .temphia/.env
 files:
-  schema.json: .bprint/schema.json
+  schema.json: .temphia/schema.json
+  plug.schema.json: .temphia/plug.schema.json
   client.js: build/static/js/main.98ce3c2e.js
   client.css: build/static/css/main.073c9b0a.css

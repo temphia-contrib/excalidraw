@@ -1,0 +1,10 @@
+{
+  "type": "bundle",
+  "items": [
+    {
+      "name": "excalidraw",
+      "type": "plug",
+      "file": "plug.schema.json"
+    }
+  ]
+}
