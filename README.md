@@ -26,4 +26,11 @@ temphia-cli  bdev zip
 
 
 ```
-![Demo](public/excalidraw.m4v)
+
+## Links
+
+- [Excalidraw](https://github.com/excalidraw/excalidraw)
+- [Temphia](http://github.com/temphia/temphia)
+
+
+[Demo](demo.md)
