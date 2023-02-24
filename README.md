@@ -20,6 +20,9 @@ temphia-cli  bdev zip
 # upload to from admin/bprints -> new
 # then instance it
 
+# ofcourse doing this in each modification would be stupid 
+# you could temphia-cli push to push modified file
+# but you have to set .env file with `bprint_dev_token` thing
 
 
 ```
