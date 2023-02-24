@@ -6,6 +6,11 @@ simple excaldraw example.
 
 ```bash
 
+# build with npm
+npm run build
+
+#fix new main.xxx.js and main.xxx.css in bprint.yaml
+
 # export config file
 export TEMPHIA_BDEV_BPRINT_CONFIG=".temphia/bprint.yaml"
 
