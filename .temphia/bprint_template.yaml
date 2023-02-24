@@ -7,5 +7,5 @@ env_file: .temphia/.env
 files:
   schema.json: .temphia/schema.json
   plug.schema.json: .temphia/plug.schema.json
-  client.js: main.xxxx.js
-  client.css: main.xxxx.css
+  client.js: buildmain.xxxx.js
+  client.css: buildmain.xxxx.css
