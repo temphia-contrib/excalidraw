@@ -15,7 +15,7 @@ function App() {
         </a>
       </header>
 
-      <div style={{ height: "90vh" }}>
+      <div style={{ height: "calc(100vh - 2rem)" }}>
         <Excalidraw onChange={(elements, appState, files) => {
           console.log("@elements", elements)
           console.log("@app_state", appState)
