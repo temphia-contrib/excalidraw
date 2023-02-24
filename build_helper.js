@@ -12,9 +12,10 @@ fs.readFile('./build/asset-manifest.json', 'utf8', (err, data) => {
 
         fs.readFile("./.temphia/bprint_template.yaml", (e1, d1) => {
             const tpl = d1.toString('utf8')
-            tpl.replace("main.xxxx.js", mainjs)
-            tpl.replace("main.xxxx.css", maincss)
-            fs.writeFileSync('./.temphia/bprint.yaml', tpl, 'utf8')
+            const out = tpl.replace("main.xxxx.js", mainjs).
+                replace("main.xxxx.css", maincss)
+
+            fs.writeFileSync('./.temphia/bprint.yaml', out, 'utf8')
         })
 
         console.log("@asset", asset["files"])
