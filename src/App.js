@@ -15,8 +15,12 @@ function App() {
         </a>
       </header>
 
-      <div style={{ height: "500px" }}>
-        <Excalidraw />
+      <div style={{ height: "90vh" }}>
+        <Excalidraw onChange={(elements, appState, files) => {
+          console.log("@elements", elements)
+          console.log("@app_state", appState)
+          console.log("@files", files)
+        }} initialData={null} />
       </div>
     </div>
   );
